@@ -4,6 +4,8 @@ This site is a gift for Youtube Channel calls DevtTips, Just a small gift, Nothi
 
 Subscribe to [The Channel](https://www.youtube.com/user/DevTipsForDesigners), Runs by a fantastic person calls [Travis Neilson](https://www.travisneilson.com)
 
+I did it with Jekyll because it was faster for me, no other reasons
+
 ## How to install/use
 
 In order to get this super awesome [Jekyll](http://jekyllrb.com) powered template, follow these simple tricks: 
