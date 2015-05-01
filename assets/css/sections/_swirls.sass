@@ -1,0 +1,76 @@
+.flags
+	width: 350px
+	top: -25px
+	position: absolute
+	left: 0
+	+clearfix
+	@media screen and (max-width: 850px)
+		display: none
+
+.swirls-container
+	height:  100vh
+	overflow: hidden
+	position: absolute
+	width: 100%
+	top: 0
+	z-index: 1
+
+[class^='swirls-ii-']
+	position: absolute
+	width: 40px
+	right: 0
+	left: 0
+	top: -200px
+	margin: auto
+
+@for $i from 1 through 5
+	.swirls-ii-#{$i}
+		margin-left: -10px
+		left: unquote($i*15 + "%")
+		+animation(swirls-ii 7s linear infinite both unquote($i*1 + "s"))
+	
+	+keyframes(swirls-ii)
+		0%
+			top: -200px
+			+transform(translatex(0px))
+		20%
+			+transform(translatex(10px))
+		40%
+			+transform(translatex(0px))
+		60%
+			+transform(translatex(10px))
+		80%
+			+transform(translatex(0px))
+		100%
+			+transform(translatex(10px))
+			top: 100%
+
+[class^='swirls-i-']
+	position: absolute
+	width: 200px
+	right: 0
+	left: 0
+	top: -100px
+	margin: auto
+
+@for $i from 5 through 1
+	.swirls-i-#{$i}
+		margin-left: unquote($i*15 + "%")
+
+		+animation(swirls-i 7s linear infinite both unquote($i*-1.5 + "s"))
+	
+	+keyframes(swirls-i)
+		0%
+			top: -100px
+			+transform(translatex(0px)) 
+		20%
+			+transform(translatex(10px))
+		40%
+			+transform(translatex(0px))
+		60%
+			+transform(translatex(10px))
+		80%
+			+transform(translatex(0px))
+		100%
+			+transform(translatex(10px))
+			top: 100%

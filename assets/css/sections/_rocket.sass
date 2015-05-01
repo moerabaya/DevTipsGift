@@ -1,0 +1,100 @@
+.rocket-container-i
+	width: 200px
+	position: absolute
+	bottom: -200px
+	left: -200px
+	z-index: 1
+	+animation(rocket 25s ease infinite 3s)
+
++keyframes(rocket)
+	0%
+		bottom: -200px
+		left: -200px
+		+transform(rotate(10deg))
+
+	10%
+		bottom: 45%
+		+transform(rotate(45deg))
+	
+	15%
+		+transform(rotate(60deg))
+	20%
+		bottom: 70%
+		left: 120%
+		+transform(rotate(60deg))
+	21%
+		+transform(rotate(-130deg))
+	30%
+		bottom: 40%
+		+transform(rotate(-120deg))
+		z-index: 11
+	
+	40%
+		+transform(rotate(-110deg))
+		bottom: 70%
+		left: -500px
+	41%
+		bottom: 110%
+		
+	42%
+		left: 50%
+		bottom: 100%
+		+transform(translatey(-50%) rotate(142deg))
+
+	60%
+		left: 50%
+		bottom: -500px
+		+transform(translatey(-50%) rotate(142deg))
+
+	100%
+		left: 50%
+		bottom: -500px
+		+transform(translatey(-50%) rotate(142deg))
+
+.rocket-container-ii
+	width: 200px
+	position: absolute
+	left: 50%
+	bottom: -500px
+	+transform(translatey(-50%) rotate(-37deg))
+	z-index: 1
+	+animation(rocket-ii 15s ease infinite 15s)
+
++keyframes(rocket-ii)
+	0%
+		left: 30%
+		bottom: -500px
+		+transform(translatey(-50%) rotate(-37deg))
+	
+	31%
+		left: 30%
+		bottom: 100%
+		+transform(translatey(-50%) rotate(-37deg))
+	32%
+		bottom: 110%
+	33%
+		+transform(rotate(50deg))
+		bottom: 70%
+		left: -500px
+
+	34%
+		bottom: 40%
+		+transform(rotate(50deg))
+		z-index: 11
+	55%
+		+transform(rotate(50deg))
+		z-index: 11
+	66%
+		bottom: 65%
+		left: 130%
+		z-index: 11
+	68%
+		+transform(rotate(-150deg))
+	91%
+		bottom: -200px
+		left: -200px
+		+transform(rotate(-150deg))
+	100%
+		bottom: -200px
+		left: -200px
+		+transform(rotate(-150deg))
