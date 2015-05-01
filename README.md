@@ -10,9 +10,9 @@ In order to get this super awesome [Jekyll](http://jekyllrb.com) powered templat
 
 * If you haven't ruby on your computer, install it. 
 * Then run in your terminal `$ gem install jekyll`
-* Move/`cd` to a folder, always in your terminal, in which you want to insert the *DevTips-Gift*
-* Run `git clone https://github.com/MoeRabaya/DevTips-Gift.git`
-* Then `cd DevTips-Gift`
+* Move/`cd` to a folder, always in your terminal, in which you want to insert the *DevTipsGift*
+* Run `git clone https://github.com/MoeRabaya/DevTipsGift.git`
+* Then `cd DevTipsGift`
 * `jekyll serve --watch`
 * **DONE**
 
