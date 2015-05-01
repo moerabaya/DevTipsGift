@@ -26,6 +26,3 @@ Thanks For Looking
 [@MoeRabaya](https://twitter.com/MoeRabaya)
 ---
 
-
-# Devtips
-# DevTipsGift
