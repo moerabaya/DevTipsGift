@@ -4,7 +4,7 @@ This site is a gift for Youtube Channel calls DevtTips, Just a small gift, Nothi
 
 Subscribe to [The Channel](https://www.youtube.com/user/DevTipsForDesigners), Runs by a fantastic person calls [Travis Neilson](https://www.travisneilson.com)
 
-I did it with Jekyll because it was faster for me, no other reasons
+I did it with Jekyll because it was faster for me, also so i can run it on github pages. totally forgot i did a commit for this.
 
 ## How to install/use
 
